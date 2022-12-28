@@ -1,8 +1,5 @@
 # Homework 01 - Introduction to Linux and Git 
 
-Make sure to follow the [instructions](https://github.com/Spring23-CS5008-BOS-Lionelle/hw1-intro-to-linux-and-git/blob/main/instructions.md) for this homework. Before turning in this assignment, update this README.md with your information.
-
-
 Name:
 
 Github Account name: 
