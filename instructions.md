@@ -56,7 +56,9 @@ Double check instructions by going to: [HW 1 - Instructions](https://github.com/
 ## 📚 Resources
 
 ### Git
+* [Git Handbook](https://docs.github.com/en/get-started/using-git/about-git) -- start here
 * [clone](https://github.com/git-guides/git-clone)
 * [commit](https://github.com/git-guides/git-commit)
 * [add](https://github.com/git-guides/git-add)
 * [push](https://github.com/git-guides/git-push)
+* [How to Write Better Commit Messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
