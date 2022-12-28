@@ -72,7 +72,7 @@ Have two options
 1. Use one of the command line editors such as Vim, Emacs, or Nano.  Vim is used in many of the videos but so are the others. Even different faculty have different preferences. I personally used emacs for years. 
 2. Use VSCode remote features to write and save to the file
 
-It is worth trying both options. The first is great for quick edits, but you may find the later easier for larger projects. See additional resources to help you out with both options.
+It is worth trying both options. The first is great for quick edits, but you may find the latter easier for larger projects. See additional resources to help you out with both options.
 
 #### Pushing update to Github
 For pushing your update to github you have a couple options based on the method.
@@ -163,6 +163,7 @@ On Gradescope, select that you want to submit your code via Github, and connect 
 4. Exceeds  (MG)
    * curl/grep command sequence completed with associated files and screenshots
    * repo README.md fully updated
+   * At least 3 commits to the repo (easily more)
 
 
 AG - Auto-graded  
@@ -170,7 +171,7 @@ MG - Manually graded
 
 ### Instruction Home
 Please note, if you are viewing these instructions in your repository copy, it is possible for your local copy to be out of sync with the official instructions. 
-Double check instructions by going to: [HW 1 - Instructions](https://github.com/Spring23-CS5008-BOS-Lionelle/hw1-intro-to-linux-and-git)
+Double check instructions by going to: [HW 1 - Instructions](https://github.com/Spring23-CS5008-BOS-Lionelle/hw1-intro-to-linux-and-git/tree/main/instructions)
 
 ## 📚 Resources
 
