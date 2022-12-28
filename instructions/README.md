@@ -25,6 +25,9 @@ See resources for into on Git Commit
 
 **NOTICE**: All assignments will need to have _at least_ three commits to earn full points. Most assignments will have many more than that (this is the only one who reaching three may be limited).
 
+
+> Lastly, but most importantly, this assignment will require you to search online for solutions. That is part of the learning process with computer science, so give yourself time to do it all!
+
 ## Part 1 - SSH 
 👉🏽 **Task**:  SSH into the Khoury servers, and (optionally) setup your public/private keys for future use.  You will take a screenshot and submit that screenshot as proof of completion. 
 
@@ -84,17 +87,18 @@ For pushing your update to github you have a couple options based on the method.
 For this part, you will be practicing with a few linux commands. After each set, you will be adding screenshots to your repo, and committing the changes for each step!
 
 
-### Create a .bash_profile
+### 👉🏽 **Task**: Create a .bash_profile
 In your **home** directory on the linux server (`cd ~` to get there).
 
-1. Use a command line program  to create a .bash_profile file
-```console
-> nano .bash_profile
-```
+1. Use a command line program  to create a .bash_profile file  
+   ```console
+   > nano .bash_profile
+   ```
 2. Update the PS1 variable in the file. You have a number of options, here is one suggested option
-```text
-export PS1="\u:\w>"
-```
+   ```text
+   export PS1="\u:\w> "
+   ```
+   The above tells you which login you are using, and your current working directory (~ is a shortcut for your $HOME directory).
 3. You can add other features by looking around. Be careful as a lot of searches bring up macOS specific bash_profile suggestions. Alias's are the common suggestions. When done, make sure to run
    ```console
    > source .bash_profile
@@ -102,27 +106,69 @@ export PS1="\u:\w>"
    This will reload your new settings. 
 4. Copy (`cp`) the .bash_profile you created to your repo directory. You will turn it in. The only thing required is updating the prompt (PS1).
 
-The above tells you which login you are using, and your current working directory (~ is a shortcut for your $HOME directory).
+Make sure to commit your changes to your repo!
+
+### 👉🏽 **Task**: Practice with curl and grep
+You will be pulling files from online, searching them, and getting stats about them. You will need to take various screenshots of the process
+
+In your repo directory:
+1. Using the `curl` command, get the following [file](https://shakespeare.folger.edu/downloads/txt/a-midsummer-nights-dream_TXT_FolgerShakespeare.txt) and save it as `midsummer-dream.txt`
+2. Run the `tail` command on the copied file.
+3. Take a screenshot showing both tasks have been completed, and add the screenshot to your repo directory (good place to commit)
+   * Depending on how you are accessing your directory, you may have to play with ways on getting the screenshot to the repo!
+   * To confirm you did it correctly, here is what the output with your own command prompt should look like:
+   ```text
+   lionelle:~/cs5008/hw1-lionelle>tail midsummer-dream.txt
+        If you pardon, we will mend.
+        And, as I am an honest Puck,
+        If we have unearned luck
+        Now to 'scape the serpent's tongue,
+        We will make amends ere long.
+        Else the Puck a liar call.
+        So good night unto you all.
+        Give me your hands, if we be friends,
+        And Robin shall restore amends.
+   [He exits.]
+   ```
+4. `grep` the file for the word dream, storing the output of the grep command to the file `dream.txt`
+5. Run `wc` on dream.txt (it should display "16 131 753 dream.txt" if you did it correctly)
+6. Run `cat` on `dream.txt`
+7. Take a screenshot of your command prompt showing these three commands, adding it to the repo (along with dream.txt)
+8. This would be a good place to commit and push your repo!
+
+
+## Don't forget
+👉🏽 **Task**: If you haven't yet, add your screenshot from **part 1** to the repo, and commit and push the changes. 
+
+As a reminder, your files need to be in the base of the repo (not the instructions directory - this is provided so you have a local copy of the instructions).
+
 
 ## 📝 Grading Rubric
 
+While many of your assignments will have an autograded and manually graded component, due to the nature of this assignment everything is manually graded. As a reminder, review the syllabus to see how Tier Mastery grading works.  You may submit more than once. 
 
-Add (AG) and (MG) next to tiers, add major conditions to meet to pass each tier. 
+### To Submit
+Click on the Gradescope link on the sidebar of the Canvas course. Select CS 5008, and select Homework 01. Ideally, you follow the link at the bottom of the assignment page. 
 
-1. Learning ()
-   * 
-2. Approaching  ()
-   * 
-3. Meets  ()
-   * 
-4. Exceeds  ()
-   * 
+On Gradescope, select that you want to submit your code via Github, and connect your Github account with Gradescope. You'll need to authorize Gradescope to have access to your account. 
+
+⭐ Make sure your repo has the files you need to turn in! Grade Scope will pull from Github. 
+
+1. Learning (MG)
+   * Student has setup their github account, and is able to submit files from their repo (even if it is an empty unchanged repo)
+2. Approaching  (MG)
+   * Screenshot documenting ability to log into the Khoury servers via SSH
+3. Meets  (MG)
+   * .bash_profile created along with screenshot showing it's use. 
+4. Exceeds  (MG)
+   * curl/grep command sequence completed with associated files and screenshots
+   * repo README.md fully updated
 
 
 AG - Auto-graded  
 MG - Manually graded
 
-## Instruction Home
+### Instruction Home
 Please note, if you are viewing these instructions in your repository copy, it is possible for your local copy to be out of sync with the official instructions. 
 Double check instructions by going to: [HW 1 - Instructions](https://github.com/Spring23-CS5008-BOS-Lionelle/hw1-intro-to-linux-and-git)
 
