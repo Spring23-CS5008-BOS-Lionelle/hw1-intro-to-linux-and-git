@@ -81,7 +81,7 @@ For pushing your update to github you have a couple options based on the method.
 2. Using the command line, since you don't have access to a GUI, you will need to setup a Personal Access Token. Follow this [guide](pat_guide.md) by Professor Logan Schmidt.
 
 
-
+ 
 ## Part 3 - Linux Practice
 
 For this part, you will be practicing with a few linux commands. After each set, you will be adding screenshots to your repo, and committing the changes for each step!
